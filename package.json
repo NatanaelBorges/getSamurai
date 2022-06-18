@@ -1,0 +1,32 @@
+{
+  "name": "getsamurai",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version",
+    "commit": "cz",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatanaelBorges/getSamurai.git"
+  },
+  "keywords": [
+    "typeScript",
+    "node",
+    "nodejs",
+    "express",
+    "angular",
+    "ionic"
+  ],
+  "author": "Natanael Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatanaelBorges/getSamurai/issues"
+  },
+  "homepage": "https://github.com/NatanaelBorges/getSamurai#readme",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
