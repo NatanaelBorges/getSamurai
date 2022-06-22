@@ -1,26 +1,17 @@
-import { NextFunction, Request, Response } from "express"
-import { AppDataSource } from '../database/data-source'
-import { User } from "../entity/User"
+import { Request } from "express"
+import { User } from "../database/entities/user"
+import { BaseController } from './base/controller'
 
-export class UserController {
+export class UserController extends BaseController<User> {
 
-    private userRepository = AppDataSource.getRepository(User)
-
-    async all(request: Request, response: Response, next: NextFunction) {
-        return this.userRepository.find()
+    constructor() {
+        super(User);
     }
 
-    async one(request: Request, response: Response, next: NextFunction) {
-        return this.userRepository.findOne(request.params.id)
+    async save(request: Request) {
+        let _user = <User>request.body;
+        super.isRequired(_user.name, 'username is required');
+        super.isRequired(_user.photo, 'photo is required');
+        return super.save(_user);
     }
-
-    async save(request: Request, response: Response, next: NextFunction) {
-        return this.userRepository.save(request.body)
-    }
-
-    async remove(request: Request, response: Response, next: NextFunction) {
-        let userToRemove = await this.userRepository.findOneBy({ id: request.params.id })
-        await this.userRepository.remove(userToRemove)
-    }
-
 }
