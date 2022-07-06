@@ -28,7 +28,7 @@ Ele combina algumas das tecnologias mais usadas no mercado um só projeto, crian
   </a>
 <a href="https://github.com/NatanaelBorges/getSamurai/blob/main/CHANGELOG.md">
  <img alt="package.json version" src="https://img.shields.io/github/package-json/v/NatanaelBorges/getSamurai">
-</a
+</a>
   <a href="https://github.com/NatanaelBorges/getSamurai/blob/main/CONTRIBUTION-pt_BR.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
