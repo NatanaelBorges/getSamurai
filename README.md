@@ -28,7 +28,7 @@ It combines some of the most used technologies on the market in a single project
   </a>
 <a href="https://github.com/NatanaelBorges/getSamurai/blob/main/CHANGELOG.md">
  <img alt="package.json version" src="https://img.shields.io/github/package-json/v/NatanaelBorges/getSamurai">
-</a
+</a>
   <a href="https://github.com/NatanaelBorges/getSamurai/blob/main/CONTRIBUTION-pt_BR.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
@@ -204,7 +204,7 @@ Your site is now running on `http://localhost:3100`. Open the `website` director
 
 #### Observation
 
-If you are using Linux Bash for Windows, [see this guide](<https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash>- shell/) or use `node` at the command prompt.
+If you are using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` at the command prompt.
 
 <p align="right">(<a href="#top"> back to the top </a>)</p>
 
